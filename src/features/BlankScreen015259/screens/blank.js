@@ -65,6 +65,30 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+
+  Button_3: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Image_4: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  View_1: {},
+  Text_2: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
   Button_3: {
     borderWidth: 2,
     borderLeftWidth: 2,
@@ -73,10 +97,10 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2
   },
   Image_4: {
-    borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
-    borderBottomWidth: 2
+    borderWidth: 20,
+    borderLeftWidth: 20,
+    borderRightWidth: 20,
+    borderTopWidth: 20,
+    borderBottomWidth: 20
   }
 })
