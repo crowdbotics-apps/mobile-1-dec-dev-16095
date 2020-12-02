@@ -23,14 +23,7 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = {
-    TextInput_3: "",
-    TextInput_4: "",
-    TextInput_6: "",
-    Switch_7: true,
-    CheckBox_8: true,
-    CheckBox_10: true
-  }
+  state = { TextInput_3: "", TextInput_4: "", TextInput_6: "" }
 
   render = () => (
     <View>
@@ -54,27 +47,6 @@ export default class Blank extends React.Component {
         style={styles.TextInput_6}
         value={this.state.TextInput_6}
         onChangeText={nextValue => this.setState({ TextInput_6: nextValue })}
-      />
-      <Switch
-        trackColor={{ false: "#C0CCDA", true: "#409EFF" }}
-        style={styles.Switch_7}
-        value={this.state.Switch_7}
-        onValueChange={nextChecked => this.setState({ Switch_7: nextChecked })}
-      />
-      <CheckBox
-        title="Radio button"
-        checkedIcon="dot-circle-o"
-        uncheckedIcon="circle-o"
-        containerStyle={styles.CheckBox_8}
-        checked={this.state.CheckBox_8}
-        onPress={nextChecked => this.setState({ CheckBox_8: nextChecked })}
-      />
-      <Icon name="star" style={styles.Icon_9} />
-      <CheckBox
-        title="Checkbox"
-        containerStyle={styles.CheckBox_10}
-        checked={this.state.CheckBox_10}
-        onPress={nextChecked => this.setState({ CheckBox_10: nextChecked })}
       />
     </View>
   )
@@ -159,6 +131,72 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+
+  View_1: {},
+  Text_2: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_3: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_4: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_6: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Switch_7: {
+    alignSelf: "flex-start",
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  CheckBox_8: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Icon_9: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  CheckBox_10: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
   View_1: {},
   Text_2: {
     borderWidth: 2,
@@ -182,35 +220,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2
   },
   TextInput_6: {
-    borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
-    borderBottomWidth: 2
-  },
-  Switch_7: {
-    alignSelf: "flex-start",
-    borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
-    borderBottomWidth: 2
-  },
-  CheckBox_8: {
-    borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
-    borderBottomWidth: 2
-  },
-  Icon_9: {
-    borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
-    borderBottomWidth: 2
-  },
-  CheckBox_10: {
     borderWidth: 2,
     borderLeftWidth: 2,
     borderRightWidth: 2,
