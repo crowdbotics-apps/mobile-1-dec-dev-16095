@@ -33,13 +33,6 @@ export default class Blank extends React.Component {
         style={styles.Button_3}
         onPress={() => alert("Pressed!")}
       />
-      <Image
-        source={{
-          uri:
-            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/4_eGYt1CN.jpg"
-        }}
-        style={styles.Image_4}
-      />
     </View>
   )
 }
@@ -81,8 +74,35 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+
   View_1: {},
   Text_2: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Button_3: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Image_4: {
+    borderWidth: 20,
+    borderLeftWidth: 20,
+    borderRightWidth: 20,
+    borderTopWidth: 20,
+    borderBottomWidth: 20
+  },
+  View_1: {},
+  Text_2: {
+    width: 150,
+    borderColor: "#8049b6",
     borderWidth: 2,
     borderLeftWidth: 2,
     borderRightWidth: 2,
@@ -95,12 +115,5 @@ const styles = StyleSheet.create({
     borderRightWidth: 2,
     borderTopWidth: 2,
     borderBottomWidth: 2
-  },
-  Image_4: {
-    borderWidth: 20,
-    borderLeftWidth: 20,
-    borderRightWidth: 20,
-    borderTopWidth: 20,
-    borderBottomWidth: 20
   }
 })
