@@ -23,7 +23,14 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { TextInput_3: "", TextInput_4: "", TextInput_6: "" }
+  state = {
+    TextInput_3: "",
+    TextInput_4: "",
+    Switch_7: true,
+    CheckBox_8: true,
+    TextInput_6: "",
+    CheckBox_9: true
+  }
 
   render = () => (
     <View>
@@ -41,12 +48,32 @@ export default class Blank extends React.Component {
         value={this.state.TextInput_4}
         onChangeText={nextValue => this.setState({ TextInput_4: nextValue })}
       />
+      <Switch
+        trackColor={{ false: "#C0CCDA", true: "#409EFF" }}
+        style={styles.Switch_7}
+        value={this.state.Switch_7}
+        onValueChange={nextChecked => this.setState({ Switch_7: nextChecked })}
+      />
+      <CheckBox
+        title="Checkbox"
+        containerStyle={styles.CheckBox_8}
+        checked={this.state.CheckBox_8}
+        onPress={nextChecked => this.setState({ CheckBox_8: nextChecked })}
+      />
       <TextInput
         placeholder="Sample text input placeholder"
         multiline={true}
         style={styles.TextInput_6}
         value={this.state.TextInput_6}
         onChangeText={nextValue => this.setState({ TextInput_6: nextValue })}
+      />
+      <CheckBox
+        title="Radio button"
+        checkedIcon="dot-circle-o"
+        uncheckedIcon="circle-o"
+        containerStyle={styles.CheckBox_9}
+        checked={this.state.CheckBox_9}
+        onPress={nextChecked => this.setState({ CheckBox_9: nextChecked })}
       />
     </View>
   )
@@ -197,6 +224,39 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+
+  View_1: {},
+  Text_2: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_3: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_4: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_6: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
   View_1: {},
   Text_2: {
     borderWidth: 2,
@@ -219,7 +279,33 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+  Switch_7: {
+    width: 100,
+    height: 50,
+    alignSelf: "flex-start",
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  CheckBox_8: {
+    width: 100,
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
   TextInput_6: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  CheckBox_9: {
+    width: 100,
     borderWidth: 2,
     borderLeftWidth: 2,
     borderRightWidth: 2,
