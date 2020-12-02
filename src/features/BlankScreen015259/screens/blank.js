@@ -33,6 +33,7 @@ export default class Blank extends React.Component {
         style={styles.Button_3}
         onPress={() => alert("Pressed!")}
       />
+      <Text style={styles.Text_4}>Sample text content</Text>
     </View>
   )
 }
@@ -99,6 +100,7 @@ const styles = StyleSheet.create({
     borderTopWidth: 20,
     borderBottomWidth: 20
   },
+
   View_1: {},
   Text_2: {
     width: 150,
@@ -109,11 +111,45 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+
   Button_3: {
     borderWidth: 2,
     borderLeftWidth: 2,
     borderRightWidth: 2,
     borderTopWidth: 2,
     borderBottomWidth: 2
+  },
+  View_1: {},
+  Text_2: {
+    width: 150,
+    alignSelf: "center",
+    borderColor: "#8049b6",
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  Button_3: {
+    width: 100,
+    alignSelf: "center",
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  Text_4: {
+    width: 150,
+    alignSelf: "center",
+    color: "#3c41d3",
+    backgroundColor: "#aaeee0",
+    borderColor: "#8049b6",
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2,
+    textAlign: "center"
   }
 })
