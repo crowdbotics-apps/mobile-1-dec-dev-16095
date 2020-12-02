@@ -257,6 +257,68 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+
+  View_1: {},
+  Text_2: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_3: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_4: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Switch_7: {
+    width: 100,
+    height: 50,
+    alignSelf: "flex-start",
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  CheckBox_8: {
+    width: 100,
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_6: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  CheckBox_9: {
+    width: 100,
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
   View_1: {},
   Text_2: {
     borderWidth: 2,
@@ -280,8 +342,8 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2
   },
   Switch_7: {
-    width: 100,
-    height: 50,
+    width: 70,
+    height: 0,
     alignSelf: "flex-start",
     borderWidth: 2,
     borderLeftWidth: 2,
