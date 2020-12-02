@@ -26,7 +26,6 @@ export default class Blank extends React.Component {
   state = {
     TextInput_3: "",
     TextInput_4: "",
-    DateTimePicker_5: new Date(""),
     TextInput_6: "",
     Switch_7: true,
     CheckBox_8: true,
@@ -48,14 +47,6 @@ export default class Blank extends React.Component {
         style={styles.TextInput_4}
         value={this.state.TextInput_4}
         onChangeText={nextValue => this.setState({ TextInput_4: nextValue })}
-      />
-      <DateTimePicker
-        showIcon={false}
-        style={styles.DateTimePicker_5}
-        date={this.state.DateTimePicker_5}
-        onDateChange={selectedDate =>
-          this.setState({ DateTimePicker_5: selectedDate })
-        }
       />
       <TextInput
         placeholder="Sample text input placeholder"
@@ -94,6 +85,80 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
+  View_1: {},
+  Text_2: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_3: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_4: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  DateTimePicker_5: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  TextInput_6: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Switch_7: {
+    alignSelf: "flex-start",
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  CheckBox_8: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Icon_9: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  CheckBox_10: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
   View_1: {},
   Text_2: {
     borderWidth: 2,
@@ -110,13 +175,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2
   },
   TextInput_4: {
-    borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
-    borderBottomWidth: 2
-  },
-  DateTimePicker_5: {
     borderWidth: 2,
     borderLeftWidth: 2,
     borderRightWidth: 2,
