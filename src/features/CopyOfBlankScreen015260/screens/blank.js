@@ -49,6 +49,33 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
+  View_1: {},
+  Text_2: {
+    borderColor: "#8049b6",
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Button_3: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+
+  Image_4: {
+    borderColor: "#b549ca",
+    borderWidth: 20,
+    borderLeftWidth: 20,
+    borderRightWidth: 20,
+    borderTopWidth: 20,
+    borderBottomWidth: 20
+  },
   View_1: {},
   Text_2: {
     borderColor: "#8049b6",
@@ -67,10 +94,10 @@ const styles = StyleSheet.create({
   },
   Image_4: {
     borderColor: "#b549ca",
-    borderWidth: 20,
-    borderLeftWidth: 20,
-    borderRightWidth: 20,
-    borderTopWidth: 20,
-    borderBottomWidth: 20
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
   }
 })
