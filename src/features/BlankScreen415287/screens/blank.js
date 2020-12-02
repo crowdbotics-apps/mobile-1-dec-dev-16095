@@ -48,13 +48,13 @@ export default class Blank extends React.Component {
         checked={this.state.CheckBox_3}
         onPress={nextChecked => this.setState({ CheckBox_3: nextChecked })}
       />
+      <Icon name="star" />
       <CheckBox
         title="Checkbox"
         containerStyle={styles.CheckBox_4}
         checked={this.state.CheckBox_4}
         onPress={nextChecked => this.setState({ CheckBox_4: nextChecked })}
       />
-      <Icon name="star" />
       <Switch
         trackColor={{ false: "#C0CCDA", true: "#409EFF" }}
         style={styles.Switch_6}
@@ -69,13 +69,13 @@ export default class Blank extends React.Component {
         checked={this.state.CheckBox_7}
         onPress={nextChecked => this.setState({ CheckBox_7: nextChecked })}
       />
+      <Icon name="star" />
       <CheckBox
         title="Checkbox"
         containerStyle={styles.CheckBox_8}
         checked={this.state.CheckBox_8}
         onPress={nextChecked => this.setState({ CheckBox_8: nextChecked })}
       />
-      <Icon name="star" />
     </View>
   )
 }
@@ -104,6 +104,7 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+
   CheckBox_4: {
     borderWidth: 2,
     borderLeftWidth: 2,
@@ -111,6 +112,7 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+
   Icon_5: {},
   Switch_6: { alignSelf: "flex-start" },
   CheckBox_7: {
@@ -120,6 +122,7 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
+
   CheckBox_8: {
     borderWidth: 2,
     borderLeftWidth: 2,
@@ -127,5 +130,39 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     borderBottomWidth: 2
   },
-  Icon_9: {}
+
+  Icon_9: {},
+  View_1: {},
+  Switch_2: { alignSelf: "flex-start" },
+  CheckBox_3: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  Icon_5: {},
+  CheckBox_4: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  Switch_6: { alignSelf: "flex-start" },
+  CheckBox_7: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  Icon_9: {},
+  CheckBox_8: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  }
 })
