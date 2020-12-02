@@ -44,11 +44,13 @@ export default class Blank extends React.Component {
         title="Radio button"
         checkedIcon="dot-circle-o"
         uncheckedIcon="circle-o"
+        containerStyle={styles.CheckBox_3}
         checked={this.state.CheckBox_3}
         onPress={nextChecked => this.setState({ CheckBox_3: nextChecked })}
       />
       <CheckBox
         title="Checkbox"
+        containerStyle={styles.CheckBox_4}
         checked={this.state.CheckBox_4}
         onPress={nextChecked => this.setState({ CheckBox_4: nextChecked })}
       />
@@ -63,11 +65,13 @@ export default class Blank extends React.Component {
         title="Radio button"
         checkedIcon="dot-circle-o"
         uncheckedIcon="circle-o"
+        containerStyle={styles.CheckBox_7}
         checked={this.state.CheckBox_7}
         onPress={nextChecked => this.setState({ CheckBox_7: nextChecked })}
       />
       <CheckBox
         title="Checkbox"
+        containerStyle={styles.CheckBox_8}
         checked={this.state.CheckBox_8}
         onPress={nextChecked => this.setState({ CheckBox_8: nextChecked })}
       />
@@ -81,6 +85,7 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Switch_2: { alignSelf: "flex-start" },
   CheckBox_3: {},
@@ -89,5 +94,38 @@ const styles = StyleSheet.create({
   Switch_6: { alignSelf: "flex-start" },
   CheckBox_7: {},
   CheckBox_8: {},
+  Icon_9: {},
+  View_1: {},
+  Switch_2: { alignSelf: "flex-start" },
+  CheckBox_3: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  CheckBox_4: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  Icon_5: {},
+  Switch_6: { alignSelf: "flex-start" },
+  CheckBox_7: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
+  CheckBox_8: {
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2
+  },
   Icon_9: {}
 })
